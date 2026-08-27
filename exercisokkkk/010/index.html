@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Rayquaza.icon
+    " type="image/x-icon">
+    <title>Listas</title>
+    <style>
+        h2 {
+            color: cornflowerblue;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="color: cadetblue;">Trampando com as listas ae</h1>
+    <h2>Listas ordenadas</h2>
+    <p>Para fazer uma lista ordenada utilize a tag &lt;ol&gt; para criar a "estrutura" da lista. <br>E para colocar os itens da lista, utilize a tag &lt;li&gt; DENTRO da tag &lt;ol&gt; <br>Como vemos no exemplo abaixo</p>
+    <ol>
+        <li>Acordar</li>
+        <li>Cheirar um pókkkkkkj</li>
+        <li>bater uma na janela</li>
+        <li>ir tomar café</li>
+        <li>trampar</li>
+    </ol>
+    <p>Tem como colocar a lista contando a partir do 4 po exemplo, utlizando o parametro 'Start="4"' DENTRO da tag &lt;ol&gt; <br>Como vemos no exemplo abaixo</p>
+    <ol start="5">
+        <li>Acordar</li>
+        <li>Cheirar um pókkkkkkj</li>
+        <li>bater uma na janela</li>
+        <li>ir tomar café</li>
+        <li>trampar</li>
+    </ol>
+    <p>E se quiser contar de tŕas pra frente, a partir do 5 por exemplo <br>utilize o <ins>ATRIBUTO</ins> "Reversed" dentro do parametro "start="5"" <br>Exemplo: start="5" reversed</p>
+    <ol start="5" reversed>
+        <li>Acordar</li>
+        <li>Cheirar um pókkkkkkj</li>
+        <li>bater uma na janela</li>
+        <li>ir tomar café</li>
+        <li>trampar</li>
+    </ol>
+    <hr>
+    <h2>Listas não ordenadas</h2>
+    <p>Pra fazer uma lista sem numeração, apenas com bolinhas marcadoras, utilize a tag &lt;ul&gt;, como vemos no exemplo abaixo</p>
+    <ul>
+        <li>Acordar</li>
+        <li>Cheirar um pókkkkkkj</li>
+        <li>bater uma na janela</li>
+        <li>ir tomar café</li>
+        <li>trampar</li>
+    </ul>
+    <p>Se quiser mudar as bolinhas utilize o parametro type <ins>DENTRO</ins> da tag &lt;ul&gt;</p>
+    <hr>
+    <h2>Aninhamento de listas</h2>
+    <p>Colocar um &lt;ol&gt; dentro de um &lt;li&gt; que já esta DENTRO DE UM &lt;ol&gt;, gera um <ins>ANINHAMENTO</ins>. <br>Como podemos ver no exeplo abaixo:</p> 
+    <h3>FRUTAS</h3>
+    <ol>
+        <li><b>Comprar</b></li>
+            <ol>
+                <li>Melancia</li>
+                <li>Graviola</li>
+                <li>Uva</li>
+                <li>Manga</li>
+                <li>Maracujá</li>
+            </ol>
+        <li><b>Já tenho</b></li>
+            <ol>
+                <li>Banana</li>
+                <li>Jabutcaba</li>
+                <li>Framboesa</li>
+                <li>Goiaba</li>
+                <li>Siriguela</li>
+            </ol>
+    </ol>
+    <h2>Lista de Definições</h2>
+    <p>A lista de definições serve para relacionar um termo com sua descrição/explicação. <br>&lt;dl&gt; (lista de definições) &lt;dt&gt; (Termo) &lt;dd&gt; (descrição de termo)</p>
+    <dl>
+        <dt><b>HTML</b></dt>
+        <dd>Linguagem de marcação para a criação do conteúdo de um site.</dd>
+        <dt><b>CSS</b></dt>
+        <dd>Linguagem de marcação para a criação do design de um site.</dd>
+        <dt><b>JavaScript</b></dt>
+        <dd>Linguagem de programação para a criação de interatividade de um site.</dd>
+    </dl>
+</body>
+</html>

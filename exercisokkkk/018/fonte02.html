@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>@font-face {
+        font-family: 'London';
+        src: url(fontes/Olondona.otf) format('opentype'), url(fontes/OldLondon.ttf);
+        font-weight: normal;
+        /*
+            Tipos de format()
+            - opentype (otf)
+            - truetype (ttf)
+            - embedded-opentype
+            - truetype-aat (Apple Advanced Typography)
+            -svg
+        */
+    }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1{
+            font: 3em 'London', Times, serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Coisa Linda</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos veritatis sapiente eum ipsa non tempora quam blanditiis quisquam debitis explicabo quaerat molestiae, rem laboriosam. Nostrum delectus voluptate nesciunt itaque obcaecati.</p>
+
+</body>
+</html>

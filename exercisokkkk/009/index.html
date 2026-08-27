@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Rayquaza.icon" type="image/x-icon">
+    <title>Outras formatações</title>
+    <style>
+        h2 {
+            color: cornflowerblue;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="color: cadetblue;">Outras formatações</h1>
+    <h2>Código-fonte</h2>
+    <p>O comando <code><ins>document.getElemntById('teste')</ins></code> è escrito em linguagem JavaScript. <br>na linha acimaeu usei a tag &lt;code&gt; para mudar a fonte das letras, para uma fonte monoespaçada(todas as letras tem o msm espaço)</p>
+    <hr>
+    <p>Tambem da utilixar &lt;pre&gt; pra preserva a formatação do texto (espaços e quebras de linha),<br> sendo usado principalmente para exibir código, como vemos no exemplo abaixo. <br> Não podemos esquecer da tag &lt;code&gt; pra add uma fonte monoespaçada.</p>
+    <pre>
+        <code>
+    num = int(input('Digite um número'))
+    if num % 2 == 0:
+        print(f'O número {num} é PAR')
+    else:
+        print(f'O número {num} é ÍMPAR')
+    print(Fim do programa')
+        </code>
+    </pre>
+    <p>ara tirar o espaçco em branco pressione Shift+Tab.</p>
+    <hr>
+    <h2>Citações</h2>
+    <p>Como diria o pai de um amigo: <q>o computador é um burro muito rápido</q></p>
+    <p>Utilize a tag &lt;q&gt; para adicionar aspas na frase, pode colocar manualmente, porem fica sem sentido, com a tag fica semântico</p>
+    <h2>Citações completas</h2>
+    <p>Para fazer citações completas utilize a tag &lt;blockquote&gt;, como mostra o exemplo abaixo:</p>
+    <p>Segundo Jeff Noble, no seu livro HTML para Leigos:</p>
+    <blockquote>
+        A diferença entre elementos inline e um bloco de texto é importante. Os elementos HTML neste capítulo descrevem os blocos de texto.
+    </blockquote>
+    <hr>
+    <h2>Abreviações</h2>
+    <p>Para fazer uma abreviação utilize a tag &lt;abbr&gt;, como da pra ver no exemplo abaixo:</p>
+
+    <p>Estou estudando <abbr title="HyperText Markup language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Estou adorando!</p>
+</body>
+</html>

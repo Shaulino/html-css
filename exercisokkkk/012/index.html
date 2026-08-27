@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Rayquaza.icon" type="image/x-icon">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1 style="color: cadetblue;">Imagem dinâmica</h1>
+    <p>A tag <strong>&lt;picture&gt;</strong> é usada para trocar imagens automaticamente
+    dependendo do tamanho da tela ou condições do dispositivo. Ela é muito útil para criar sites responsivos
+    <br>Dentro dela, você pode usar:
+    <strong><br>
+        &lt;source&gt;</strong>
+        → define regras para quando uma imagem deve aparece
+    <strong><br>
+        &lt;img&gt;</strong> 
+        → imagem padrão (fallback), usada caso nenhuma regra seja atendida</p>
+    <p>Tente abrir esse site em vários dipositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador,</p>
+
+    <picture>
+        <source media="(max-width:750px)" srcset="img/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="img/foto-m.png">
+        <img src="img/foto-g.png" alt="Imagem flexível">
+    </picture>
+    <hr>
+    <h1>Reproduzindo Áudios</h1>
+    <p>Pra usar audio na parada ae tem q usar a tag &lt;audio&gt;
+     <br>Mas tbm n pode esquecer de usar o parâmetro "controls autoplay</p>
+    <audio src="midia/robsu.mp4" controls autoplay></audio>
+</body>
+</html>
