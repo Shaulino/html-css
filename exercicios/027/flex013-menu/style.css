@@ -17,14 +17,39 @@ body {
 header {
     background-color: gray;
     padding: 10px;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
 header > h1 {
     border: 1px dotted black;
+    color: white;
+    flex: 0 0 200px;
 }
 
 header > nav {
     border: 1px dotted black;
+
+    display: flex;
+}
+
+header > nav >  a {
+    text-decoration: none;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+header > nav > a:hover {
+    background-color: white;
+    color: black;
+    transition: 0.5s;
 }
 
 main {
@@ -33,4 +58,15 @@ main {
     padding: 10px;
     border-radius: 10px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.575);
+}
+
+span#burguer {
+    display: none;
+    font-size: 2em;
+    color: white;
+    cursor: pointer;
+}
+
+nav > a {
+    display: block;
 }
